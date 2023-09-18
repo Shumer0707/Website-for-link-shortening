@@ -1,0 +1,20 @@
+{
+    "name": "vendor/app",
+    "description": "Diplomka",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vasia CL",
+            "email": "shumer0707@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/models"
+        }
+    }
+}

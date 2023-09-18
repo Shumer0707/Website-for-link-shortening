@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+}
+
+img{max-width: 100%}
+
+a{
+    color: #fd6e1d;
+    text-decoration: none;
+    transition: all 600ms ease;
+}
+
+a:hover{
+    color: aqua ;
+    transition: all 600ms ease;
+}
+
+.container{
+    margin-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+
+@media (max-width: 900px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+}
+
+header .top-menu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #fd6e1d;
+}
+
+header > .top-menu >.nav a{
+    color: #fd6e1d;
+    margin-left: 20px;
+    line-height: 100px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+header > .top-menu >.nav a:hover{
+    color: #97d8d4;
+}
+
+header > .top-menu >.logo {
+    line-height: 33px;
+    text-align: center;
+    display: flex;
+    width: 100px;
+}
+/*---------------------------Header----------------------------------------*/
+
+.main {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 130px;
+    height: 40px;
+    background: #333;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.btn:hover{
+    transition: all 600ms ease;
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 10px 20px -2px rgba(0,0,0,0.3);
+}
+.info {
+    background: #ffffff;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.info .link{
+    background: #97d8d4;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+.info .link h4{
+    margin-bottom: 10px;
+}
+.btn.delete{
+    height: 20px;
+}
+/*---------------------------Footer----------------------------------------*/
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
